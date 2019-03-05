@@ -11,7 +11,7 @@
 Install ffmpeg with [Homebrew](https://brew.sh/).
 
 ```bash
-brew install fswebcam
+brew install ffmpeg
 ```
 
 If you don't have Homebrew, follow the [official instructions](https://ffmpeg.org/download.html#build-mac) of FFMPEG.
