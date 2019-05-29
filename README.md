@@ -87,4 +87,5 @@ just `git commit ...` in any repo! and see photos in `~/Pictures/Commits`
 
 ### Making a GIF out of the photos
 `ffmpeg -f concat -safe 0 -i <(for f in ~/Pictures/Commits/*.jpg; do echo "file '$f'"; done) -vsync vfr -pix_fmt bgr8 output.gif`
+
 `ffmpeg -i output.mp4 firsttry.gif`
