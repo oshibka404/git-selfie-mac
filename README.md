@@ -99,5 +99,5 @@ ffmpeg -f concat \
   -i <(for f in ~/Pictures/Commits/*.jpg; do echo "file '$f'"; done) \
   -vsync vfr \
   -pix_fmt bgr8 \
-  output.gif \
+  output.gif
 ```
